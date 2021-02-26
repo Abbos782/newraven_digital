@@ -326,6 +326,9 @@ color: #FFFFFF;
 	  font-weight:400;
 	  font-style: 15px;
   }
+  .blog{
+	  height: 800px;
+  }
   .blog__boxs{
       width: 100%;
       height: 590px;
@@ -348,6 +351,7 @@ color: #FFFFFF;
 	  width: 100%;
 	  height: 5px;
       bottom: 0%;
+	  
      
   
      
@@ -383,3 +387,15 @@ color: #FFFFFF;
  font-weight: 300;
  line-height: 1.5;
  }
+ .clents{
+	 background-color: #0A0F14;
+	 padding: 20px 0;
+ }
+.contact-us__form__input,.contact-us__form__textare{
+	
+	border: none;
+	border-bottom: 1px solid#536A82;
+}
+.contact-us__form__textare {
+	
+}
