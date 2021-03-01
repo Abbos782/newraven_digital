@@ -1,0 +1,59 @@
+
+
+@media(max-width:1900px){
+    .container1{
+        width: 1650px;
+        margin: 0 auto;
+    }
+    .digital-agency-list {
+        left: -42%;
+
+       
+    }
+    .digital-agency__photo img{
+       width: 125%;
+       transform: translateX(127px);
+    }
+}
+@media(max-width:1800px){
+    .container1{
+        width: 1700px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1700px){
+    .container1{
+        width: 1600px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1600px){
+    .container1{
+        width: 1500px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1500px){
+    .container1{
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1400px){
+    .container1{
+        width: 1300px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1300px){
+    .container1{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1200px){
+    .container1{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
