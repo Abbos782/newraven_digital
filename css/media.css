@@ -1,15 +1,16 @@
 
 
-@media(max-width:1900px){
+@media(max-width:1880px){
     .container1{
-        width: 1650px;
+        width: 1600px;
         margin: 0 auto;
     }
-    .digital-agency-list {
-        left: -42%;
+    .digital-agency-list{
+        /* margin: 0 auto; */
+        right: 1289px;
+     }
+    
 
-       
-    }
     .digital-agency__photo img{
        width: 125%;
        transform: translateX(127px);
@@ -17,43 +18,117 @@
 }
 @media(max-width:1800px){
     .container1{
-        width: 1700px;
+        margin: 0 auto;
+        width: 1550px;
+        
+    }
+    .digital-agency-list{
+        margin: 0 auto;
+        right: 1000px;
+     }
+}
+@media(max-width:1750px){
+    .container1{
+        width: 1500px;
         margin: 0 auto;
     }
+    .digital-agency-list{
+        margin: 0 auto;
+        left: -498px;
+     }
 }
 @media(max-width:1700px){
     .container1{
-        width: 1600px;
+        width: 1500px;
+        margin: 0 auto;
+    }
+    .digital-agency-list{
+        left: -477px;
+     }
+}
+@media(max-width:1650px){
+    .container1{
+        width: 1450px;
         margin: 0 auto;
     }
 }
 @media(max-width:1600px){
     .container1{
-        width: 1500px;
+        width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1550px){
+    .container1{
+        width: 1350px;
         margin: 0 auto;
     }
 }
 @media(max-width:1500px){
     .container1{
-        width: 1400px;
+        width: 1300px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1450px){
+    .container1{
+        width: 1250px;
         margin: 0 auto;
     }
 }
 @media(max-width:1400px){
     .container1{
-        width: 1300px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1350px){
+    .container1{
+        width: 1150px;
         margin: 0 auto;
     }
 }
 @media(max-width:1300px){
     .container1{
-        width: 1200px;
+        width: 1100px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1250px){
+    .container1{
+        width: 1050px;
         margin: 0 auto;
     }
 }
 @media(max-width:1200px){
     .container1{
-        width: 1200px;
+        width: 1000px;
         margin: 0 auto;
     }
+}
+@media(max-width:1150px){
+    .container1{
+        width: 950px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1100px){
+    .container1{
+        width: 900px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:1050px){
+    .container1{
+        width: 900px;
+        margin: 0 auto;
+    }
+    digital-agency
+}
+@media(max-width:950px){
+    .container1{
+        width: 900px;
+        margin: 0 auto;
+    }
+    .digital-agency
 }
