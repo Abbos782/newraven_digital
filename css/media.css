@@ -11,10 +11,10 @@
      }
     
 
-    .digital-agency__photo img{
+    /* .digital-agency__photo img{
        width: 125%;
        transform: translateX(127px);
-    }
+    } */
 }
 @media(max-width:1800px){
     .container1{
@@ -32,19 +32,19 @@
         width: 1500px;
         margin: 0 auto;
     }
-    .digital-agency-list{
+    /* .digital-agency-list{
         margin: 0 auto;
         left: -498px;
-     }
+     } */
 }
 @media(max-width:1700px){
     .container1{
         width: 1500px;
         margin: 0 auto;
     }
-    .digital-agency-list{
+    /* .digital-agency-list{
         left: -477px;
-     }
+     } */
 }
 @media(max-width:1650px){
     .container1{
@@ -130,5 +130,10 @@
         width: 900px;
         margin: 0 auto;
     }
-    .digital-agency
+    .navbar-list{
+        display: none;
+    }
+    .navbar__logo{
+        width: 30%;
+    }
 }

@@ -63,16 +63,20 @@ color: #FFFFFF;
 
 }
 .navbar-list{
-	width: 60%;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-left: 40px;
+	text-align: center;
+	
 }
 .navbar__item{
 	font-size: 20px;
 }
 .navbar__item a{
 	font-size: 16px;
+	color: #fff !important;
 }
 .navbar__btn{
 	width: 7%;
@@ -84,6 +88,9 @@ color: #FFFFFF;
   color: #fff;
   font-size: 20px;
 }
+.navbar-toggler span{
+	color: #fff;
+}
 .digital-agency{
   padding: 40px 0;
 }
@@ -94,16 +101,17 @@ color: #FFFFFF;
 	justify-content: space-between;
 }
 .digital-agency__content{
-	width: 40%;
+	
 }
 .digital-agency__title{
 	font-size: 60px;
 }
 .digital-agency__photo{
-	width: 50%;
+	
 }
 .digital-agency__photo img{
-	width: 120%;
+	width: 100%;
+	transform: translateX(100px);
 }
 .digital-agency-list{
 	position: absolute;
@@ -111,7 +119,7 @@ color: #FFFFFF;
 	align-items: center;
 	border-bottom: 0.5px solid #606E7E;
 	width: 600px;
-	left: -33%;
+	left: -380px;
 	top: 20%;
 }
 .digital-agency-list#digital-agency-list{
