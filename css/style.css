@@ -11,18 +11,16 @@ body{
 	color:#fff;F
 
 }
+
 a{
 	text-decoration: none;
-	color: #fff;
+	color:#fff;
 }
 .container1{
-	width: 1200px;
+	width: 1800px;
 	margin: 0 auto;
 }
-/* .container{F
-	width: 1140px;
-	margin: 0 auto;
-} */
+
 .primary__btn{
 background: #003ADB;
 box-shadow: 0px 10px 30px rgba(64, 106, 255, 0.24);
@@ -49,10 +47,15 @@ color: #FFFFFF;
 .navbar{
 	padding: 30px 0;
 }
-.navbar>.container1{
-	align-items: center;
-	display: flex;
-	justify-content: space-between;
+.navbar__header{
+width: 100%;
+display: flex;
+
+    justify-content: space-between;
+}
+.collapse{
+	margin: 0 auto;
+
 }
 .navbar__logo{
 	width: 20%;
@@ -274,14 +277,23 @@ color: #FFFFFF;
 .testimonials{
 	padding: 80px 0;
 }
-.testimonials__btn{
-	width: 2px;
-	height: 50px;
+.testimonials__btn,.testimonials__btn1{
+	
 	background-color: #fff;
 	padding: 0;
 	box-shadow: 0 0 5px #003ADB;
 	justify-content: space-between;
 	
+}
+.testimonials__btn{
+	width: 2px;
+	height: 50px;
+}
+.testimonials__line1{
+	display: none;
+}
+.primary__text{
+	padding: 0 20px  0 0 ;
 }
 .our-team__photo{
 	position: relative;
